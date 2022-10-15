@@ -18,6 +18,7 @@
 #import "SDGraphicsImageRenderer.h"
 #import "SDInternalMacros.h"
 #import <Accelerate/Accelerate.h>
+#import <UIKit/UIImage.h>
 
 static inline size_t SDByteAlign(size_t size, size_t alignment) {
     return ((size + (alignment - 1)) / alignment) * alignment;
